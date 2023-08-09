@@ -1,0 +1,77 @@
+html {
+  overflow: hidden;
+  padding: 0px;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+  overflow: scroll;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.form-inline {
+  display: inline-flex;
+}
+
+.page {
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+  .page {
+    margin-top: 550px;
+  }
+}
+
+@media (min-width: 556px) and (max-width: 715px) {
+  .page {
+    margin-top: 400px;
+  }
+}
+
+@media (min-width: 716px) and (max-width: 999px) {
+  .page {
+    margin-top: 330px;
+  }
+}
+
+/* // - Article - // */
+.article {
+  border: 5px solid #434051; /* Color del borde del artículo */
+  border-radius: 5px;
+}
+
+.article .title {
+  background-color: #434051; /* Mismo color del borde del artículo como fondo */
+  color: #ffffff; /* Letras en color blanco */
+  border-bottom-right-radius: 5px;
+  width: max-content;
+  padding: 5px;
+}
+
+.article .container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 15px;
+}
