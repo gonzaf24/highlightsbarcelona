@@ -28,19 +28,19 @@
 
   <div class="icons-wrapper">
       <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-instagram social-network"></i> </a>
+        <a href="https://instagram.com/highlightsbarcelona?igshid=NTc4MTIwNjQ2YQ==" target="_blank"> <i class="fab fa-instagram social-network"></i> </a>
       </span>
       <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-tiktok"></i> </a>
+        <a href="https://www.tiktok.com/@highlightsbarecelona?_t=8ehi5MQMebQ&_r=1" target="_blank"> <i class="fab fa-brands fa-tiktok"></i> </a>
       </span>
       <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
+        <a href="https://twitter.com/highlights_bcn?s=21" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
       </span>
       <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
+        <a href="https://www.facebook.com/highlightsbarcelona" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
       </span>
       <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-youtube social-network"></i> </a>
+        <a href="https://youtube.com/@highlightsbarcelona" target="_blank"> <i class="fab fa-youtube social-network"></i> </a>
       </span>
     </div>
 </div>
