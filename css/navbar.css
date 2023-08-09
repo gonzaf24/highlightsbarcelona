@@ -67,11 +67,6 @@
   cursor: pointer;
 }
 
-.icons-wrapper > .icon:active,
-.icons-wrapper > .icon:focus {
-  box-shadow: 0 0 0 1px white, 0 0 0 3px #434051;
-}
-
 .icons-wrapper > .icon:hover i {
   color: #ff6500;
   transition: all 0.3s ease;
@@ -252,5 +247,10 @@
     padding: 6px 10px;
     width: 100%;
     background-color: #ff65002b;
+  }
+
+  .open-menu-button:hover {
+    border: 3px solid white;
+    transition: all 0.5s ease;
   }
 }
