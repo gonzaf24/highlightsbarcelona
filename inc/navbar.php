@@ -1,7 +1,7 @@
-<div class="navbar">
+<div id="navbar" class="navbar">
   <div class="navbar-container">
-    <span class="navbar-title">
-      Highlights
+    <span>
+        <a href="index.php" class="navbar-title">Highlights</a>
     </span>
     <div class="icons-wrapper">
       <span class="icon">
@@ -35,11 +35,11 @@
     <a href="index.php?vista=neighborhoods_festivals" class="item">Local neighborhood festivals</a>
     <a href="index.php?vista=techno_lovers" class="item">Techno Lovers</a>
   </div>
-  <button id="open-button" class="open-button">
+  <button id="open-menu-button" class="open-menu-button">
       <span class="icon">
-        <i id="collapse-up"  class="fa-solid fa-up-long fa-2xl"></i>
-        <i id="menu-button" class="fas fa-duotone fa-bars fa-2xl"></i>
+        <i id="collapse-up-icon"  class="fa-solid fa-up-long fa-2xl"></i>
+        <i id="menu-button-icon" class="fas fa-duotone fa-bars fa-2xl"></i>
       </span>
-    </button>
+  </button>
 </div>
 <script src="./js/navbar.js"></script>

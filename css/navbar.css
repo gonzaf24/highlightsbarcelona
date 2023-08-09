@@ -56,8 +56,12 @@
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-  color: violet;
+  color: #ff6500;
   position: relative;
+}
+
+.navbar-title:hover {
+  color: #ff6500;
 }
 
 .navbar-title::after {
@@ -66,7 +70,7 @@
   bottom: -1em;
   right: 0;
   font-weight: 700;
-  color: violet;
+  color: #ff6500;
   font-size: 0.6rem;
 }
 
@@ -106,7 +110,7 @@
   color: #786fa3;
 }
 
-.open-button {
+.open-menu-button {
   position: absolute;
   bottom: -25px;
   right: 200px;
@@ -122,8 +126,8 @@
   border: 3px solid white;
 }
 
-.open-button > .icon > i {
-  color: violet;
+.open-menu-button > .icon > i {
+  color: #ff6500;
   cursor: pointer;
 }
 
@@ -131,28 +135,28 @@
   overflow: hidden;
   max-height: 0;
   padding: 0;
-  transition: max-height 1s ease;
+  height: 0px;
+  transition: max-height 0.5s ease, padding 0.5s ease;
 }
 
 #navbar-cotegories.open-menu {
-  max-height: 1000px;
-  padding: 10px 20px;
-  padding-right: 25px;
-  padding-bottom: 40px;
+  max-height: 500px;
+  padding: 10px 20px 40px 20px;
   height: 100%;
-  transition: max-height 1s ease, padding 1s ease;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
 }
 
-#collapse-up {
+#collapse-up-icon {
   display: none;
 }
 
-.open-button.open-menu #menu-button {
-  display: none;
-}
-
-.open-button.open-menu #collapse-up {
+.open-menu-button.open-menu #collapse-up-icon {
   display: inline;
+}
+
+.open-menu-button.open-menu #menu-button-icon {
+  display: none;
 }
 
 @media (min-width: 0px) and (max-width: 430px) {
@@ -196,13 +200,14 @@
     padding: 10px 20px;
     padding-right: 25px;
     padding-bottom: 40px;
-    height: unset;
+    height: 100%;
+    transition: max-height 1s ease, padding 1s ease;
   }
 
   .item {
     font-size: 0.75rem;
     padding: 6px 10px;
     width: 100%;
-    background-color: #ee82ee33;
+    background-color: #ff65002b;
   }
 }

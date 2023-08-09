@@ -7,7 +7,7 @@
    
 
     <body>
-    <?php include "./inc/navbar.php"; ?>
+        <?php include "./inc/navbar.php"; ?>
         <?php
             // Definir la página predeterminada
             if (!isset($_GET['vista']) || $_GET['vista'] == "") {
