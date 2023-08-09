@@ -37,7 +37,7 @@
         <a href="https://twitter.com/highlights_bcn?s=21" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
       </span>
       <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
+        <a href="https://www.facebook.com/highlightsbarcelona" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
       </span>
       <span class="icon">
         <a href="https://youtube.com/@highlightsbarcelona" target="_blank"> <i class="fab fa-youtube social-network"></i> </a>
