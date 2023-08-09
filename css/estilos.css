@@ -71,17 +71,25 @@ body::-webkit-scrollbar {
   font-weight: bold;
   text-align: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 5px;
 }
 
 .explore-link {
-  color: #ff6500;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #434051;
-  padding: 10px;
-  border-radius: 15px;
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 430px) {
+  .explore-link {
+    color: #ff6500;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #434051;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline;
+  }
 }
 
 .footer {
