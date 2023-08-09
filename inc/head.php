@@ -6,3 +6,4 @@
 <link rel="stylesheet" href="./css/estilos.css">
 <link rel="stylesheet" href="./css/navbar.css">
 <script src="https://kit.fontawesome.com/a11b4444d7.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>

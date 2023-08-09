@@ -6,18 +6,18 @@
     
   </div>
   <div id="navbar-cotegories" class="navbar-cotegories">
-    <a href="index.php?vista=neighborhoods" class="item">Neighborhoods</a>
-    <a href="index.php?vista=beaches" class="item">Beaches</a>
-    <a href="index.php?vista=tourist_attractions" class="item">Tourist attractions</a>
-    <a href="index.php?vista=mobility" class="item">Mobility</a>
-    <a href="index.php?vista=terraces" class="item">Terraces (drinks and beers)</a>
-    <a href="index.php?vista=tapas" class="item">Eat tapas !</a>
-    <a href="index.php?vista=expensive_places" class="item">Expensive and dress-code</a>
-    <a href="index.php?vista=food" class="item">By type of Food</a>
-    <a href="index.php?vista=local_life" class="item">Local life, places</a>
-    <a href="index.php?vista=neighborhoods_festivals" class="item">Local neighborhood festivals</a>
-    <a href="index.php?vista=nightlife" class="item">Typical nightlife</a>
-    <a href="index.php?vista=techno_lovers" class="item">Techno Lovers</a>
+      <a href="#" class="item navigation-link" data-view="neighborhoods">Neighborhoods</a>
+      <a href="#" class="item navigation-link" data-view="beaches">Beaches</a>
+      <a href="#" class="item navigation-link" data-view="tourist_attractions">Tourist attractions</a>
+      <a href="#" class="item navigation-link" data-view="mobility">Mobility</a>
+      <a href="#" class="item navigation-link" data-view="terraces">Terraces (drinks and beers)</a>
+      <a href="#" class="item navigation-link" data-view="tapas">Eat tapas !</a>
+      <a href="#" class="item navigation-link" data-view="expensive_places">Expensive and dress-code</a>
+      <a href="#" class="item navigation-link" data-view="food">By type of Food</a>
+      <a href="#" class="item navigation-link" data-view="local_life">Local life, places</a>
+      <a href="#" class="item navigation-link" data-view="neighborhoods_festivals">Local neighborhood festivals</a>
+      <a href="#" class="item navigation-link" data-view="nightlife">Typical nightlife</a>
+      <a href="#" class="item navigation-link" data-view="techno_lovers">Techno Lovers</a>
   </div>
   <button id="open-menu-button" class="open-menu-button">
       <span class="icon">
