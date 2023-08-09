@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function updateMarginTopByWidth() {
-    console.log("entro");
-    const navbarHeight = parseFloat(getComputedStyle(navbar).height);
     const screenWidth = window.innerWidth;
 
     // Determinar el valor de margin-top según el ancho del navegador
@@ -30,11 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (screenWidth < 550) {
       marginTopValue = `550px`;
     } else if (screenWidth < 880) {
-      marginTopValue = `300px`;
-    } else if (screenWidth < 1280) {
-      marginTopValue = `250px`;
+      marginTopValue = `400px`;
+    } else if (screenWidth < 925) {
+      marginTopValue = `360px`;
     } else {
-      marginTopValue = `250px`;
+      marginTopValue = `300px`;
     }
 
     if (navbarCategories.classList.contains("open-menu")) {
@@ -45,8 +43,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Ejecutar la función inicialmente y cada vez que la ventana cambie de tamaño
-  //updateMarginTop();
-  //window.addEventListener("resize", updateMarginTop);
+  updateMarginTop();
+  window.addEventListener("resize", updateMarginTop);
+
+  // Iniciar el menú abierto en versión web
+  const screenWidth = window.innerWidth;
+  if (screenWidth >= 430) {
+    navbarCategories.classList.add("open-menu");
+    openButton.classList.add("open-menu");
+    updateMarginTopByWidth();
+    collapseUpIcon.classList.remove("hidden");
+    menuButtonIcon.classList.add("hidden");
+  }
 
   openButton.addEventListener("click", function () {
     navbarCategories.classList.toggle("open-menu");
@@ -54,8 +62,34 @@ document.addEventListener("DOMContentLoaded", function () {
     updateMarginTopByWidth();
     collapseUpIcon.classList.toggle("hidden");
     menuButtonIcon.classList.toggle("hidden");
-    setTimeout(() => {
-      //updateMarginTop();
-    }, 1000);
+  });
+
+  let prevScrollY = window.scrollY;
+
+  // Escuchar el evento scroll en el body
+  document.body.addEventListener("scroll", function () {
+    console.log("scroll");
+    const scrollY =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (scrollY > prevScrollY) {
+      // Hacer scroll hacia arriba
+      if (navbarCategories.classList.contains("open-menu")) {
+        navbarCategories.classList.remove("open-menu");
+        openButton.classList.remove("open-menu");
+        updateMarginTopByWidth();
+        collapseUpIcon.classList.add("hidden");
+        menuButtonIcon.classList.remove("hidden");
+      }
+    } else if (scrollY === 0) {
+      // En la parte superior de la página
+      navbarCategories.classList.add("open-menu");
+      openButton.classList.add("open-menu");
+      updateMarginTopByWidth();
+      collapseUpIcon.classList.remove("hidden");
+      menuButtonIcon.classList.add("hidden");
+    }
+
+    prevScrollY = scrollY;
   });
 });
