@@ -34,6 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
     menuButtonIcon.classList.toggle("hidden");
     setTimeout(() => {
       updateMarginTop();
-    }, 185);
+    }, 450);
   });
 });
