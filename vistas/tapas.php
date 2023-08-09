@@ -20,7 +20,7 @@
                 <strong>Trick:</strong> 
             </p>
             <p class="subtitle">
-                <strong>Photo:</strong> [Insert photo of Jai Ca's vibrant tapas spread]
+                <strong>Photosss:</strong> [Insert photo of Jai Ca's vibrant tapas spread]
                 <br>
                 <strong>Location:</strong> [Marked location on the map]
             </p>
