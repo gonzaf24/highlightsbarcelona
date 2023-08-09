@@ -3,23 +3,7 @@
     <span>
         <a href="index.php" class="navbar-title">Highlights</a>
     </span>
-    <div class="icons-wrapper">
-      <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-instagram social-network"></i> </a>
-      </span>
-      <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-tiktok"></i> </a>
-      </span>
-      <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
-      </span>
-      <span class="icon">
-        <a href="#" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
-      </span>
-      <span class="icon">
-        <a href="https://www.youtube.com/@highlightsbarcelona" target="_blank"> <i class="fab fa-youtube social-network"></i> </a>
-      </span>
-    </div>
+    
   </div>
   <div id="navbar-cotegories" class="navbar-cotegories">
     <a href="index.php?vista=neighborhoods" class="item">Neighborhoods</a>
@@ -41,5 +25,23 @@
         <i id="menu-button-icon" class="fas fa-duotone fa-bars fa-2xl"></i>
       </span>
   </button>
+
+  <div class="icons-wrapper">
+      <span class="icon">
+        <a href="#" target="_blank"> <i class="fab fa-instagram social-network"></i> </a>
+      </span>
+      <span class="icon">
+        <a href="#" target="_blank"> <i class="fab fa-brands fa-tiktok"></i> </a>
+      </span>
+      <span class="icon">
+        <a href="#" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
+      </span>
+      <span class="icon">
+        <a href="#" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
+      </span>
+      <span class="icon">
+        <a href="#" target="_blank"> <i class="fab fa-youtube social-network"></i> </a>
+      </span>
+    </div>
 </div>
 <script src="./js/navbar.js"></script>
