@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const openButton = document.getElementById("open-menu-button");
   const collapseUpIcon = document.getElementById("collapse-up-icon");
   const menuButtonIcon = document.getElementById("menu-button-icon");
-  const pageElement = document.querySelector(".page");
+  const pageElement = document.getElementById("content-container");
   const navbar = document.getElementById("navbar");
 
   // Función para calcular y aplicar el margen superior

@@ -1,4 +1,4 @@
-<section class="page">
+<section  class="page">
     <h1 class="title">Local life (Rumba and Flamenco)</h1>
     <h2 class="subtitle">
             Discover Barcelona's Local Life, where cultural gems like Catalan rumba and flamenco come to life.

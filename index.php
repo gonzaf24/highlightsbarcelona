@@ -7,34 +7,32 @@
    
 
     <body>
-        <?php include "./inc/navbar.php"; ?>
+    <?php
+        // Definir las páginas públicas
+        $paginas_publicas = [
+            'home',
+            'mobility',
+            'neighborhoods',
+            'beaches',
+            'tourist_attractions',
+            'nightlife',
+            'terraces',
+            'tapas',
+            'expensive_places',
+            'food',
+            'local_life',
+            'neighborhoods_festivals',
+            'techno_lovers'
+        ];
+
+        // Comprobar si la página solicitada es pública
+        $es_publica = isset($_GET['vista']) && in_array($_GET['vista'], $paginas_publicas);
+    ?>
+
+    <?php include "./inc/navbar.php"; ?>
+
+    <div id="content-container">
         <?php
-            // Definir la página predeterminada
-            if (!isset($_GET['vista']) || $_GET['vista'] == "") {
-                $_GET['vista'] = "home"; // La página de inicio será la vista predeterminada
-            }
-
-            // Definir las páginas públicas
-            $paginas_publicas = [
-                'home',
-                'mobility',
-                'neighborhoods',
-                'beaches',
-                'tourist_attractions',
-                'nightlife',
-                'terraces',
-                'tapas',
-                'expensive_places',
-                'food',
-                'local_life',
-                'neighborhoods_festivals',
-                'techno_lovers'
-            ];
-            
-
-            // Comprobar si la página solicitada es pública
-            $es_publica = in_array($_GET['vista'], $paginas_publicas);
-
             if (is_file("./vistas/" . $_GET['vista'] . ".php") && $_GET['vista'] != "admin_login" && $_GET['vista'] != "404") {
                 // Si no es una página pública y no se ha iniciado sesión, redirigir al cierre de sesión
                 if (!$es_publica && ((!isset($_SESSION['id']) || $_SESSION['id'] == "") || (!isset($_SESSION['user']) || $_SESSION['user'] == ""))) {
@@ -59,5 +57,8 @@
                 }
             }
         ?>
+    </div>
+
+    <?php include "./inc/footer.php"; ?>
     </body>
 </html>
