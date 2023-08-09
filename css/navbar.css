@@ -40,6 +40,38 @@
   padding: 15px;
 }
 
+.icons-wrapper {
+  position: absolute;
+  bottom: -16px;
+  right: 5px;
+  z-index: 2;
+  display: flex;
+  gap: 5px;
+}
+
+.icons-wrapper > .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #434051;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px white, 0 0 0 3px #434051;
+  transition: all 0.3s ease;
+}
+
+.icons-wrapper > .icon:hover {
+  box-shadow: 0 0 0 1px #ff6500, 0 0 0 3px #434051;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.icons-wrapper > .icon:hover i {
+  color: #ff6500;
+  transition: all 0.3s ease;
+}
+
 @media (min-width: 0px) and (max-width: 430px) {
   .navbar-container {
     display: flex;
@@ -107,13 +139,14 @@
 }
 
 .icon > a > i:hover {
-  color: #786fa3;
+  color: #ff6500;
+  transition: all 0.5s ease;
 }
 
 .open-menu-button {
   position: absolute;
   bottom: -25px;
-  right: 200px;
+  right: 205px;
   z-index: 2;
   background: #434051;
   border: none;
@@ -124,6 +157,11 @@
   width: 50px;
   height: 50px;
   border: 3px solid white;
+}
+
+.open-menu-button:hover {
+  border: 3px solid #ff6500;
+  transition: all 0.5s ease;
 }
 
 .open-menu-button > .icon > i {
