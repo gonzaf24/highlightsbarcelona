@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Terraces</h1>
     <h2 class="subtitle">
             Discover the best terraces in Barcelona for drinks and beers. 

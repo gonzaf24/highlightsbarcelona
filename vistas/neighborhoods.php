@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Neighborhoods</h1>
     <h2 class="subtitle">
         Welcome to our Neighborhoods section! Discover the diverse charm of Barcelona's iconic areas 

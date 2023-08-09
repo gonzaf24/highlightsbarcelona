@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Choose you type of Food</h1>
     <h2 class="subtitle">
             Indulge in Barcelona's culinary delights with our By Type of Food section. Discover diverse

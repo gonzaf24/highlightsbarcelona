@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Terraces</h1>
     <h2 class="subtitle">
             Indulge in Barcelona's iconic "tapas" tradition with our Eating Tapas section. 

@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Mobility</h1>
     <h2 class="subtitle">
         Discover Barcelona's Mobility options in one convenient section. Navigate the city effortlessly

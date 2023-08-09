@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Neighborhoods festivals</h1>
     <h2 class="subtitle">
             Experience Barcelona's Local Neighborhood Festivals, a celebration of culture 

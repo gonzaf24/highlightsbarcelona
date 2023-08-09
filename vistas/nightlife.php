@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Typical nightlife</h1>
     <h2 class="subtitle">
             Experience Barcelona's vibrant nightlife in our section dedicated to 

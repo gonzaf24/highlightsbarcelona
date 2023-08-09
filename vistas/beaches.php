@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Beaches</h1>
     <h2 class="subtitle">
         Explore Barcelona's diverse beaches in our Beaches section. 
