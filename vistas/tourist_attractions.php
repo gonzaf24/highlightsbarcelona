@@ -1,4 +1,4 @@
-<section class="page">
+<section id="page" class="page">
     <h1 class="title">Tourist Attractions</h1>
     <h2 class="subtitle">
             Discover Barcelona's iconic landmarks and must-visit sites in our 
