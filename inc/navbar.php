@@ -22,7 +22,7 @@
   <button id="open-menu-button" class="open-menu-button">
       <span class="icon">
         <i id="collapse-up-icon"  class="fa-solid fa-up-long fa-2xl"></i>
-        <i id="menu-button-icon" class="fas fa-duotone fa-bars fa-2xl"></i>
+        <i id="menu-button-icon"  class="fa-solid fa-bars fa-2xl"></i>
       </span>
   </button>
 
@@ -34,10 +34,10 @@
         <a href="https://www.tiktok.com/@highlightsbarecelona?_t=8ehi5MQMebQ&_r=1" target="_blank"> <i class="fab fa-brands fa-tiktok"></i> </a>
       </span>
       <span class="icon">
-        <a href="https://twitter.com/highlights_bcn?s=21" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
+        <a href="https://www.facebook.com/highlightsbarcelona" target="_blank"> <i class="fab fa-brands fa-facebook"></i></a>
       </span>
       <span class="icon">
-        <a href="https://www.facebook.com/highlightsbarcelona" target="_blank"> <i class="fab fa-brands fa-facebook"></i> </a>
+        <a href="https://twitter.com/highlights_bcn?s=21" target="_blank"> <i class="fab fa-brands fa-twitter"></i> </a>
       </span>
       <span class="icon">
         <a href="https://youtube.com/@highlightsbarcelona" target="_blank"> <i class="fab fa-youtube social-network"></i> </a>

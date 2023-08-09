@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  const currentView = new URLSearchParams(window.location.search).get("vista");
+
   function updateMarginTopByWidth() {
     const screenWidth = window.innerWidth;
 
@@ -92,4 +94,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     prevScrollY = scrollY;
   });
+
+  const exploreLink = document.querySelector(".explore-link");
+  exploreLink.addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent default anchor behavior
+    navbarCategories.classList.add("open-menu");
+    openButton.classList.add("open-menu");
+    updateMarginTopByWidth();
+    collapseUpIcon.classList.remove("hidden");
+    menuButtonIcon.classList.add("hidden");
+  });
+
+  if (currentView === "home" || currentView === null) {
+    menuButtonIcon.classList.add("fa-shake");
+    setTimeout(() => {
+      menuButtonIcon.classList.remove("fa-shake");
+    }, 2500);
+  }
 });
