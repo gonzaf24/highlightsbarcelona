@@ -90,6 +90,8 @@
   transition: all 0.3s ease;
   color: #ff6500;
   position: relative;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.4),
+    0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 .navbar-title:hover {
