@@ -10,20 +10,61 @@
     <h1 class="title">Our top 5 Recommended Tapas Places in Barcelona</h1>
 
     <div class="article">
-        <h1 class="title">Jai Ca</h1>
-        <div class="container">
-            <p class="subtitle">
-                <strong>Neighborhood:</strong> Barceloneta
+        
+        <div class="article-container">
+            <div class="container">
+                <h1 class="title mobile-title">Jai Ca</h1>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-1.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-2.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-3.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-4.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-5.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-6.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tapas/tapas-7.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="title web-title">Jai Ca</h1>
                 <br>
-                <strong>Description:</strong> Jai Ca is a beloved tapas institution in Barceloneta, known for its bustling atmosphere and delicious seafood tapas. Try their crispy calamari, grilled prawns, and patatas bravas for an authentic taste of the Mediterranean.
-                <br>
-                <strong>Trick:</strong> 
-            </p>
-            <p class="subtitle">
-                <strong>Photosss:</strong> [Insert photo of Jai Ca's vibrant tapas spread]
-                <br>
-                <strong>Location:</strong> [Marked location on the map]
-            </p>
+                <p class="subtitle">
+                    <strong>Neighborhood:</strong> Barceloneta
+                    <br>
+                    <strong>Description:</strong> Jai Ca is a beloved tapas institution in Barceloneta, known for its bustling atmosphere and delicious seafood tapas. Try their crispy calamari, grilled prawns, and patatas bravas for an authentic taste of the Mediterranean.
+                    <br>                
+                </p>
+                <p class="subtitle">
+                    
+                    <strong>Location:</strong> [Marked location on the map]
+                </p>
+                <div class="trick-card">
+                    <div class="trick-content" id="trick-card">
+                        <div class="front subtitle">
+                            <strong>Click to see the trick!</strong> 
+                        </div>
+                        <div class="back">
+                            For the best experience, we suggest giving them a call before heading over. Due to its popularity, this place tends to get busy. Calling ahead can help secure your spot and ensure a smooth dining experience.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

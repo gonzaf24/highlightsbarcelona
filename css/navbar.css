@@ -30,7 +30,7 @@
   left: 0;
   right: 0;
   max-width: 100vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar-container {
@@ -132,7 +132,11 @@
 }
 
 .item:hover {
-  color: #786fa3;
+  color: #af6a3c;
+}
+
+.item.active {
+  color: #ff6500;
 }
 
 .icon > a > i {
@@ -159,6 +163,7 @@
   width: 50px;
   height: 50px;
   border: 3px solid white;
+  box-shadow: 0 0 0 2px #434051;
 }
 
 .open-menu-button:hover {
@@ -177,6 +182,7 @@
   padding: 0;
   height: 0px;
   transition: max-height 0.5s ease, padding 0.5s ease;
+  border: 2px solid #434051;
 }
 
 #navbar-cotegories.open-menu {

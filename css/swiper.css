@@ -1,0 +1,138 @@
+.swiper {
+  --swiper-theme-color: #f86403;
+  max-width: 600px;
+  max-height: 420px;
+  width: 600px;
+  height: 420px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 600px;
+  max-height: 420px;
+  width: 600px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: unset !important;
+  bottom: -30px !important;
+}
+
+@media (min-width: 0px) and (max-width: 360px) {
+  .swiper {
+    max-width: 275px;
+    max-height: 175px;
+    width: 275px;
+    height: 175px;
+  }
+
+  .swiper-slide img {
+    max-width: 275px;
+    max-height: 175px;
+    width: 275px;
+    height: 175px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 430px) {
+  .swiper {
+    max-width: 300px;
+    max-height: 200px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .swiper-slide img {
+    max-width: 300px;
+    max-height: 200px;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 560px) {
+  .swiper {
+    max-width: 400px;
+    max-height: 250px;
+    width: 400px;
+    height: 250px;
+  }
+
+  .swiper-slide img {
+    max-width: 400px;
+    max-height: 250px;
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 561px) and (max-width: 900px) {
+  .swiper {
+    max-width: 500px;
+    max-height: 300px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    max-width: 500px;
+    max-height: 300px;
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1250px) {
+  .swiper {
+    max-width: 400px;
+    max-height: 300px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    max-width: 400px;
+    max-height: 300px;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1550px) {
+  .swiper {
+    max-width: 500px;
+    max-height: 350px;
+    width: 500px;
+    height: 350px;
+  }
+
+  .swiper-slide img {
+    max-width: 500px;
+    max-height: 350px;
+    width: 500px;
+    height: 350px;
+  }
+}

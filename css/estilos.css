@@ -51,15 +51,41 @@ body::-webkit-scrollbar {
 
 /* // - Article - // */
 .article {
-  border: 5px solid #434051; /* Color del borde del artículo */
+  /* border: 1px solid #434051; /* Color del borde del artículo */
   border-radius: 5px;
+  padding-bottom: 50px;
+}
+
+.article-container {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.web-title {
+  display: inline;
+}
+.mobile-title {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 900px) {
+  .article-container {
+    flex-direction: column;
+  }
+
+  .web-title {
+    display: none;
+  }
+
+  .mobile-title {
+    display: inline;
+  }
 }
 
 .article .title {
-  background-color: #434051; /* Mismo color del borde del artículo como fondo */
+  background-color: #f86403; /* Mismo color del borde del artículo como fondo */
   color: #ffffff; /* Letras en color blanco */
-  border-bottom-right-radius: 5px;
-  width: max-content;
+  width: 100%;
   padding: 5px;
 }
 
