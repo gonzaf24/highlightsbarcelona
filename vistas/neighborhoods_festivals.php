@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Neighborhoods festivals</h1>
+    <h1 class="title tracking-in-contract-bck">Neighborhoods festivals</h1>
     <h2 class="subtitle">
             Experience Barcelona's Local Neighborhood Festivals, a celebration of culture 
             and community. From monthly gatherings to the grand "La Mercè" finale in November, immerse 

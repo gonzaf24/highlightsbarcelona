@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Typical nightlife</h1>
+    <h1 class="title tracking-in-contract-bck">Typical nightlife</h1>
     <h2 class="subtitle">
             Experience Barcelona's vibrant nightlife in our section dedicated to 
             the city's Typical Nightlife. Discover diverse clubs and venues catering to various tastes

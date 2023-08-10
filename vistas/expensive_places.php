@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Expensive and code-dress places</h1>
+    <h1 class="title tracking-in-contract-bck">Expensive and code-dress places</h1>
     <h2 class="subtitle">
             Discover Barcelona's luxury destinations for affluent individuals with discerning tastes.
             Indulge in Michelin-starred restaurants, where culinary masterpieces delight the senses.

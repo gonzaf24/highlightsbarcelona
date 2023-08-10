@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Terraces</h1>
+    <h1 class="title tracking-in-contract-bck">Eat Tapas ! </h1>
     <h2 class="subtitle">
             Indulge in Barcelona's iconic "tapas" tradition with our Eating Tapas section. 
             Discover the top 5 recommended places and hidden gems in each neighborhood, 

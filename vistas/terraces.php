@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Terraces</h1>
+    <h1 class="title tracking-in-contract-bck">Terraces</h1>
     <h2 class="subtitle">
             Discover the best terraces in Barcelona for drinks and beers. 
             Enjoy the vibrant atmosphere of each neighborhood with our own photos as your guide.

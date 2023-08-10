@@ -45,6 +45,10 @@ body::-webkit-scrollbar {
   min-height: 100vh;
 }
 
+.title {
+  letter-spacing: 1px;
+}
+
 /* // - Article - // */
 .article {
   border: 5px solid #434051; /* Color del borde del artículo */
