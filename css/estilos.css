@@ -53,19 +53,59 @@ body::-webkit-scrollbar {
 .article {
   /* border: 1px solid #434051; /* Color del borde del artículo */
   border-radius: 5px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .article-container {
   display: flex;
   padding-bottom: 50px;
+  gap: 20px;
+}
+
+.article .container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 15px;
 }
 
 .web-title {
-  display: inline;
+  position: relative;
+  display: inline-block;
 }
+
+.web-title::before {
+  content: attr(data-title);
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background-color: #f86403;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  -webkit-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+}
+
 .mobile-title {
   display: none;
+}
+
+.subtitle-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.container-subtitle-wrapper {
+  gap: 20px !important;
 }
 
 @media (min-width: 0px) and (max-width: 900px) {
@@ -78,7 +118,26 @@ body::-webkit-scrollbar {
   }
 
   .mobile-title {
-    display: inline;
+    position: relative;
+    display: inline-block;
+  }
+
+  .mobile-title::before {
+    content: attr(data-title);
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: #f86403;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
   }
 }
 
@@ -86,14 +145,7 @@ body::-webkit-scrollbar {
   background-color: #f86403; /* Mismo color del borde del artículo como fondo */
   color: #ffffff; /* Letras en color blanco */
   width: 100%;
-  padding: 5px;
-}
-
-.article .container {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin: 15px;
+  padding: 5px 30px;
 }
 
 .welcome-text {

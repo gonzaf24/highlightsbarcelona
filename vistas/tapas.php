@@ -13,7 +13,7 @@
         
         <div class="article-container">
             <div class="container">
-                <h1 class="title mobile-title">Jai Ca</h1>
+                <h1 class="title mobile-title" data-title="1">Jai Ca</h1>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -41,18 +41,13 @@
                     <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
                 </div>
             </div>
-            <div class="container">
-                <h1 class="title web-title">Jai Ca</h1>
-                <br>
-                <p class="subtitle">
-                    <strong>Neighborhood:</strong> Barceloneta
-                    <br>
-                    <strong>Description:</strong> Jai Ca is a beloved tapas institution in Barceloneta, known for its bustling atmosphere and delicious seafood tapas. Try their crispy calamari, grilled prawns, and patatas bravas for an authentic taste of the Mediterranean.
-                    <br>                
-                </p>
-                <p class="subtitle">
-                    
-                    <strong>Location:</strong> [Marked location on the map]
+            <div class="container container-subtitle-wrapper">
+                <h1 class="title web-title" data-title="1">Jai Ca</h1>
+                <p class="subtitle subtitle-wrapper">
+                    <span>Jai Ca is a beloved tapas institution in Barceloneta, known for its bustling atmosphere and delicious seafood tapas. Try their crispy calamari, grilled prawns, and patatas bravas for an authentic taste of the Mediterranean.</span>
+                    <span><strong>Neighborhood:</strong> Barceloneta</span>
+                    <span><strong>Official Website:</strong> <a href="https://www.barjaica.com/" target="_blank">https://www.barjaica.com/</a></span>
+                    <span><strong>Location:</strong> [Marked location on the map]</span>
                 </p>
                 <div class="trick-card">
                     <div class="trick-content" id="trick-card">
@@ -60,7 +55,7 @@
                             <strong>Click to see the trick!</strong> 
                         </div>
                         <div class="back">
-                            For the best experience, we suggest giving them a call before heading over. Due to its popularity, this place tends to get busy. Calling ahead can help secure your spot and ensure a smooth dining experience.
+                            <p>For the best experience, we suggest giving them a call before heading over. Due to its popularity, this place tends to get busy. Calling ahead can help secure your spot and ensure a smooth dining experience.<p>
                         </div>
                     </div>
                 </div>
