@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Determinar el valor de margin-top según el ancho del navegador
     let marginTopValue = `250px`;
     if (screenWidth < 550) {
-      marginTopValue = `550px`;
+      marginTopValue = `585px`;
     } else if (screenWidth < 880) {
       marginTopValue = `400px`;
     } else if (screenWidth < 925) {
@@ -70,13 +70,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Escuchar el evento scroll en el body
   document.body.addEventListener("scroll", function () {
-    console.log("scroll");
     const scrollY =
       document.body.scrollTop || document.documentElement.scrollTop;
+    const windowHeight = window.innerHeight;
+    const scrollThreshold = windowHeight * 0.3; // 10% of the window height
 
     if (scrollY > prevScrollY) {
-      // Hacer scroll hacia arriba
-      if (navbarCategories.classList.contains("open-menu")) {
+      // Scrolling down
+      if (
+        scrollY > scrollThreshold &&
+        navbarCategories.classList.contains("open-menu")
+      ) {
         navbarCategories.classList.remove("open-menu");
         openButton.classList.remove("open-menu");
         updateMarginTopByWidth();
@@ -84,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         menuButtonIcon.classList.remove("hidden");
       }
     } else if (scrollY === 0) {
-      // En la parte superior de la página
+      // At the top of the page
       navbarCategories.classList.add("open-menu");
       openButton.classList.add("open-menu");
       updateMarginTopByWidth();

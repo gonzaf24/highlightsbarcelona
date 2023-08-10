@@ -68,7 +68,8 @@ body::-webkit-scrollbar {
 
 .welcome-text {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 500;
+  letter-spacing: 1px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -78,6 +79,7 @@ body::-webkit-scrollbar {
 
 .explore-link {
   display: none;
+  text-transform: uppercase;
 }
 
 @media (min-width: 0px) and (max-width: 430px) {
