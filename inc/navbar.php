@@ -1,3 +1,7 @@
+<?php
+  // Obtener la vista actual de la URL
+  $vista_actual = isset($_GET['vista']) ? $_GET['vista'] : 'home';
+?>
 <div id="navbar" class="navbar">
   <div class="navbar-container">
     <span>
@@ -6,18 +10,18 @@
     
   </div>
   <div id="navbar-cotegories" class="navbar-cotegories">
-    <a href="index.php?vista=tapas" class="item">Eat tapas !</a>
-    <a href="index.php?vista=terraces" class="item">Terraces (drinks and beers)</a>
-    <a href="index.php?vista=food" class="item">By type of Food</a>
-    <a href="index.php?vista=local_life" class="item">Local life (Rumba & Flamenco)</a>
-    <a href="index.php?vista=mobility" class="item">Mobility</a>
-    <a href="index.php?vista=tourist_attractions" class="item">Tourist attractions</a>
-    <a href="index.php?vista=beaches" class="item">Beaches</a>
-    <a href="index.php?vista=neighborhoods" class="item">Neighborhoods</a>
-    <a href="index.php?vista=neighborhoods_festivals" class="item">Local neighborhood festivals</a>
-    <a href="index.php?vista=expensive_places" class="item">Expensive and dress-code</a>
-    <a href="index.php?vista=nightlife" class="item">Typical nightlife</a>
-    <a href="index.php?vista=techno_lovers" class="item">Techno Lovers</a>
+    <a href="index.php?vista=tapas" class="item <?php echo $vista_actual === 'tapas' ? 'active' : ''; ?>">Eat tapas !</a>
+    <a href="index.php?vista=terraces" class="item <?php echo $vista_actual === 'terraces' ? 'active' : ''; ?>">Terraces (drinks and beers)</a>
+    <a href="index.php?vista=food" class="item <?php echo $vista_actual === 'food' ? 'active' : ''; ?>">By type of Food</a>
+    <a href="index.php?vista=local_life" class="item <?php echo $vista_actual === 'local_life' ? 'active' : ''; ?>">Local life (Rumba & Flamenco)</a>
+    <a href="index.php?vista=mobility" class="item <?php echo $vista_actual === 'mobility' ? 'active' : ''; ?>">Mobility</a>
+    <a href="index.php?vista=tourist_attractions" class="item <?php echo $vista_actual === 'tourist_attractions' ? 'active' : ''; ?>">Tourist attractions</a>
+    <a href="index.php?vista=beaches" class="item <?php echo $vista_actual === 'beaches' ? 'active' : ''; ?>">Beaches</a>
+    <a href="index.php?vista=neighborhoods" class="item <?php echo $vista_actual === 'neighborhoods' ? 'active' : ''; ?>">Neighborhoods</a>
+    <a href="index.php?vista=neighborhoods_festivals" class="item <?php echo $vista_actual === 'neighborhoods_festivals' ? 'active' : ''; ?>">Local neighborhood festivals</a>
+    <a href="index.php?vista=expensive_places" class="item <?php echo $vista_actual === 'expensive_places' ? 'active' : ''; ?>">Expensive and dress-code</a>
+    <a href="index.php?vista=nightlife" class="item <?php echo $vista_actual === 'nightlife' ? 'active' : ''; ?>">Typical nightlife</a>
+    <a href="index.php?vista=techno_lovers" class="item <?php echo $vista_actual === 'techno_lovers' ? 'active' : ''; ?>">Techno Lovers</a>
   </div>
   <button id="open-menu-button" class="open-menu-button">
       <span class="icon">
@@ -44,4 +48,14 @@
       </span>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="./js/navbar.js"></script>
+<script src="./js/tricks.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
