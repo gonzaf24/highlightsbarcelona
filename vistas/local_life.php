@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Local life (Rumba and Flamenco)</h1>
+    <h1 class="title tracking-in-contract-bck">Local life (Rumba and Flamenco)</h1>
     <h2 class="subtitle">
             Discover Barcelona's Local Life, where cultural gems like Catalan rumba and flamenco come to life.
             Immerse yourself in vibrant performances, captured through photos and videos.

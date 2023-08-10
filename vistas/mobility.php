@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Mobility</h1>
+    <h1 class="title tracking-in-contract-bck">Mobility</h1>
     <h2 class="subtitle">
         Discover Barcelona's Mobility options in one convenient section. Navigate the city effortlessly
         with metros, trains, buses, taxis, and the airport shuttle. Learn how to obtain tickets and get 

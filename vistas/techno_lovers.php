@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Techno Lovers</h1>
+    <h1 class="title tracking-in-contract-bck">Techno Lovers</h1>
     <h2 class="subtitle">
         At Techno Lovers Barcelona, we're committed to providing valuable and up-to-date 
         content for all techno enthusiasts. Follow us on our website and social media platforms for regular

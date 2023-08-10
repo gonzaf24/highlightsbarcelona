@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Beaches</h1>
+    <h1 class="title tracking-in-contract-bck">Beaches</h1>
     <h2 class="subtitle">
         Explore Barcelona's diverse beaches in our Beaches section. 
         From the lively Barceloneta to tranquil Bogatell, each offers a

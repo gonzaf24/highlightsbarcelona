@@ -1,5 +1,5 @@
 <section id="page" class="page">
-    <h1 class="title">Tourist Attractions</h1>
+    <h1 class="title tracking-in-contract-bck">Tourist Attractions</h1>
     <h2 class="subtitle">
             Discover Barcelona's iconic landmarks and must-visit sites in our 
             Tourist Attractions section. From Antoni Gaudí's architectural marvels to historical treasures,

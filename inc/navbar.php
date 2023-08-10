@@ -1,7 +1,7 @@
 <div id="navbar" class="navbar">
   <div class="navbar-container">
     <span>
-        <a href="index.php" class="navbar-title">Highlights</a>
+        <a href="index.php" class="navbar-title text-flicker-in-glow">Highlights</a>
     </span>
     
   </div>
