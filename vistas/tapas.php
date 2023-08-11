@@ -20,25 +20,25 @@
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-1.png" />
+                                <img src="./img/tapas/tapas-1-1.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-2.png" />
+                                <img src="./img/tapas/tapas-1-2.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-3.png" />
+                                <img src="./img/tapas/tapas-1-3.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-4.png" />
+                                <img src="./img/tapas/tapas-1-4.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-5.png" />
+                                <img src="./img/tapas/tapas-1-5.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-6.png" />
+                                <img src="./img/tapas/tapas-1-6.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="./img/tapas/tapas-7.png" />
+                                <img src="./img/tapas/tapas-1-7.png" />
                             </div>
                         </div>
                         <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
@@ -48,17 +48,20 @@
                     <h1 class="title web-title" data-title="1">Jai Ca</h1>
                     <p class="subtitle subtitle-wrapper">
                         <span>Jai Ca is a beloved tapas institution in Barceloneta, known for its bustling atmosphere and delicious seafood tapas. Try their crispy calamari, grilled prawns, and patatas bravas for an authentic taste of the Mediterranean.</span>
-                        <span><strong>Neighborhood:</strong> Barceloneta</span>
+                        <span><strong>Neighborhood: </strong> Barceloneta</span>
                         <span><strong>Official Website:</strong> <a href="https://www.barjaica.com/" target="_blank">https://www.barjaica.com/</a></span>
                         <span><strong>Location:</strong> [Marked location on the map]</span>
                     </p>
                     <div class="trick-card">
-                        <div class="trick-content" id="trick-card">
+                        <div class="trick-card-content">
                             <div class="front subtitle">
                                 <strong>Click to see the trick!</strong> 
                             </div>
                             <div class="back" data-title="TRICK">
-                                <p>For the best experience, we suggest giving them a call before heading over. Due to its popularity, this place tends to get busy. Calling ahead can help secure your spot and ensure a smooth dining experience.<p>
+                                <div class="do-login-container">
+                                    <p>You must be logged in to see this trick.</p>
+                                    <p> do <a class="do-login-ancor" href="#" >Login</a> or <a class="do-login-ancor" href="#" >Register</a> , it's free! </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -66,78 +69,224 @@
             </div>
         </div>
 
-        <div class="article">
-            <h1 class="title">La Cova Fumada</h1>
-            <div class="container">
-                <p class="subtitle">
-                    <strong>Neighborhood:</strong> Barceloneta
-                    <br>
-                    <strong>Description:</strong> A charming and rustic spot, La Cova Fumada is famous for inventing the original "bomba" – a flavorful potato and meatball tapa. Besides their signature dish, don't miss their grilled sardines and octopus.
-                    <br>
-                    <strong>Trick:</strong> 
-                </p>
-                <p class="subtitle">
-                    <strong>Photo:</strong> [Insert photo of La Cova Fumada's cozy interior and bomba tapa]
-                    <br>
-                    <strong>Location:</strong> [Marked location on the map]
-                </p>
+
+
+        <div class="article">        
+            <div class="article-container">
+                <div class="container">
+                    <h1 class="title mobile-title" data-title="2">La Cova Fumada</h1>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-2-1.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-2-2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-2-3.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-2-4.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-2-5.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-2-6.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                    </div>
+                </div>
+                <div class="container container-subtitle-wrapper">
+                    <h1 class="title web-title" data-title="2">La Cova Fumada</h1>
+                    <p class="subtitle subtitle-wrapper">
+                        <span>A charming and rustic spot, La Cova Fumada is famous for inventing the original "bomba" – a flavorful potato and meatball tapa. Besides their signature dish, don't miss their grilled sardines and octopus.</span>
+                        <span><strong>Schedules:</strong> 
+                                The restaurant has a somewhat unique schedule, and we recommend checking it before you go to ensure you don't find it closed. <br>
+                                Monday to Friday from 9 am to 3 pm. <br>
+                                Thursday and Friday also open from 6 pm to 8 pm. <br>
+                                Saturday from 9 am to 1 pm</span>
+                        <span><strong>Neighborhood: </strong> Barceloneta</span>
+                        <span><strong>Official Website:</strong> <a href="https://www.lacovafumada.com/" target="_blank">https://www.lacovafumada.com/</a></span>
+                        <span><strong>Location:</strong> [Marked location on the map]</span>
+                    </p>
+                    <div class="trick-card">
+                        <div class="trick-card-content" >
+                            <div class="front subtitle">
+                                <strong>Click to see the trick!</strong> 
+                            </div>
+                            <div class="back" data-title="TRICK">
+                                <p>You can call to ensure they're open. Here's the number: 📞 Phone: +34 932 21 40 61<p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="article">
-            <h1 class="title">Quimet & Quimet</h1>
-            <div class="container">
-                <p class="subtitle">
-                    <strong>Neighborhood:</strong> Poble-sec
-                    <br>
-                    <strong>Description:</strong> This small and cozy tapas bar is a hidden gem in Poble-sec. Specializing in montaditos (small sandwiches), Quimet & Quimet offers an impressive selection of canned seafood, cured meats, and cheeses that pair perfectly with their extensive wine list.
-                    <br>
-                    <strong>Trick:</strong> 
-                </p>
-                <p class="subtitle">
-                    <strong>Photo:</strong> [Insert photo of Quimet & Quimet's artfully presented montaditos]
-                    <br>
-                    <strong>Location:</strong> [Marked location on the map]
-                </p>
-            </div>
-        </div>
-        
-        <div class="article">
-            <h1 class="title">Els 4 Gats</h1>
-            <div class="container">
-                <p class="subtitle">
-                    <strong>Neighborhood:</strong> El Raval
-                    <br>
-                    <strong>Description:</strong> A historic modernist café frequented by Picasso and other renowned artists, Els 4 Gats serves tapas with a touch of elegance. Indulge in their gourmet dishes, such as Iberian ham croquettes and grilled vegetables.
-                    <br>
-                    <strong>Trick:</strong> 
-                </p>
-                <p class="subtitle">
-                    <strong>Photo:</strong> [Insert photo of Els 4 Gats' stylish tapas presentation]
-                    <br>
-                    <strong>Location:</strong> [Marked location on the map]
-                </p>
-            </div>
-        </div>
 
-        <div class="article">
-            <h1 class="title">Cerveseria Catalana</h1>
-            <div class="container">
-                <p class="subtitle">
-                    <strong>Neighborhood:</strong> Eixample
-                    <br>
-                    <strong>Description:</strong> This bustling tapas bar is a local favorite, offering a wide range of classic and innovative tapas. From Spanish tortilla to fresh seafood, Cerveseria Catalana has something to please every palate.
-                    <br>
-                    <strong>Trick:</strong> 
-                </p>
-                <p class="subtitle">
-                    <strong>Photo:</strong> [Insert photo of Cerveseria Catalana's mouthwatering tapas selection]
-                    <br>
-                    <strong>Location:</strong> [Marked location on the map]
-                </p>
+        <div class="article">        
+            <div class="article-container">
+                <div class="container">
+                    <h1 class="title mobile-title" data-title="3">Quimet & Quimet</h1>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-3-1.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-3-2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-3-3.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-3-4.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-3-5.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                    </div>
+                </div>
+                <div class="container container-subtitle-wrapper">
+                    <h1 class="title web-title" data-title="3">Quimet & Quimet</h1>
+                    <p class="subtitle subtitle-wrapper">
+                        <span>This small and cozy tapas bar is a hidden gem in Poble-sec. Specializing in montaditos (small sandwiches), Quimet & Quimet offers an impressive selection of canned seafood, cured meats, and cheeses that pair perfectly with their extensive wine list.</span>
+                        <span><strong>Neighborhood: </strong>Poble-sec</span>
+                        <span><strong>Official Website:</strong> <a href="https://www.quimetquimet.com/" target="_blank">https://www.quimetquimet.com/</a></span>
+                        <span><strong>Location:</strong> [Marked location on the map]</span>
+                    </p>
+                    <div class="trick-card">
+                        <div class="trick-card-content" >
+                            <div class="front subtitle">
+                                <strong>Click to see the trick!</strong> 
+                            </div>
+                            <div class="back" data-title="TRICK">
+                                <p>It's closed temporary<p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </div>
 
+        <div class="article">        
+            <div class="article-container">
+                <div class="container">
+                    <h1 class="title mobile-title" data-title="4">Els 4 Gats</h1>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-1.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-3.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-4.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-5.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-6.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-4-7.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                    </div>
+                </div>
+                <div class="container container-subtitle-wrapper">
+                    <h1 class="title web-title" data-title="4">Els 4 Gats</h1>
+                    <p class="subtitle subtitle-wrapper">
+                        <span>A historic modernist café frequented by Picasso and other renowned artists, Els 4 Gats serves tapas with a touch of elegance. Indulge in their gourmet dishes, such as Iberian ham croquettes and grilled vegetables.</span>
+                        <span><strong>Neighborhood: </strong>El Raval</span>
+                        <span><strong>Official Website:</strong> <a href="https://4gats.com/" target="_blank">https://4gats.com/</a></span>
+                        <span><strong>Location:</strong> [Marked location on the map]</span>
+                    </p>
+                    <div class="trick-card">
+                        <div class="trick-card-content">
+                            <div class="front subtitle">
+                                <strong>Click to see the trick!</strong> 
+                            </div>
+                            <div class="back" data-title="TRICK">
+                                <div class="do-login-container">
+                                    <p>You must be logged in to see this trick.</p>
+                                    <p> do <a class="do-login-ancor" href="#" >Login</a> or <a class="do-login-ancor" href="#" >Register</a> , it's free! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="article">        
+            <div class="article-container">
+                <div class="container">
+                    <h1 class="title mobile-title" data-title="5">Cerveseria Catalana</h1>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-1.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-3.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-4.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-5.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-6.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/tapas/tapas-5-7.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                    </div>
+                </div>
+                <div class="container container-subtitle-wrapper">
+                    <h1 class="title web-title" data-title="5">Cerveseria Catalana</h1>
+                    <p class="subtitle subtitle-wrapper">
+                        <span>This bustling tapas bar is a local favorite, offering a wide range of classic and innovative tapas. From Spanish tortilla to fresh seafood, Cerveseria Catalana has something to please every palate.</span>
+                        <span><strong>Neighborhood: </strong>Eixample</span>
+                        <span><strong>Official Website:</strong> <a href="https://cerveceriacatalana.com/" target="_blank">https://cerveceriacatalana.com/</a></span>
+                        <span><strong>Location:</strong> [Marked location on the map]</span>
+                    </p>
+                    <div class="trick-card">
+                        <div class="trick-card-content">
+                            <div class="front subtitle">
+                                <strong>Click to see the trick!</strong> 
+                            </div>
+                            <div class="back" data-title="TRICK">
+                                <div class="do-login-container">
+                                    <p>You must be logged in to see this trick.</p>
+                                    <p> do <a class="do-login-ancor" href="#" >Login</a> or <a class="do-login-ancor" href="#" >Register</a> , it's free! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
 </section>

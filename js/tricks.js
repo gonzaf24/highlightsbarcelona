@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const trickCard = document.getElementById("trick-card");
+  const trickCards = document.querySelectorAll(".trick-card-content");
 
-  trickCard.addEventListener("click", function () {
-    trickCard.classList.toggle("active");
+  trickCards.forEach(function (card) {
+    card.addEventListener("click", function () {
+      card.classList.toggle("active");
+    });
   });
 });
