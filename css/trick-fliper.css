@@ -5,7 +5,7 @@
   background-color: #f8640359;
 }
 
-.trick-content {
+.trick-card-content {
   height: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transform-style: preserve-3d;
@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.trick-content.active {
+.trick-card-content.active {
   transform: rotateY(180deg);
 }
 
@@ -38,6 +38,7 @@
   color: white;
   transform: rotateY(180deg);
   padding: 30px 15px 15px 15px;
+  width: 100%;
 }
 
 .back::after {
@@ -49,4 +50,23 @@
   font-size: 0.6rem;
   color: #f86403;
   border-radius: 5px 5px 0 0;
+}
+
+.do-login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.do-login-ancor {
+  color: #f86403;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.do-login-ancor:hover {
+  color: #f86403;
+  text-decoration: underline;
 }
