@@ -138,6 +138,47 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.neighborhoods-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.neighborhoods-titles {
+  position: relative;
+  display: inline-block;
+}
+
+.neighborhoods-titles::before {
+  content: attr(data-title);
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  padding: 5px 10px;
+  background-color: #f86403;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  -webkit-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 20px -1px rgba(0, 0, 0, 0.75);
+}
+
+.neighborhoods-tapas-places {
+  font-size: 1rem;
+  padding: 30px 0px;
+  color: #363636;
+  line-height: 25px;
+}
+
+.neighborhoods-tapas-places a {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
 .subtitle-wrapper {
   display: flex;
   flex-direction: column;

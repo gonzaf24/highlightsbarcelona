@@ -47,6 +47,7 @@
     <a href="index.php?vista=nightlife" class="item <?php echo $vista_actual === 'nightlife' ? 'active' : ''; ?>">Typical nightlife</a>
     <a href="index.php?vista=techno_lovers" class="item <?php echo $vista_actual === 'techno_lovers' ? 'active' : ''; ?>">Techno Lovers</a>
   </div>
+  
   <button id="open-menu-button" class="open-menu-button">
       <span class="icon">
         <i id="collapse-up-icon"  class="fa-solid fa-up-long fa-2xl"></i>
