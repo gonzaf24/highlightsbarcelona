@@ -72,13 +72,27 @@
   transition: all 0.3s ease;
 }
 
+.categoria-movil {
+  display: none;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
 @media (min-width: 0px) and (max-width: 430px) {
   .navbar-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     gap: 10px;
-    padding: 10px 20px;
+    padding: 20px;
+  }
+
+  .categoria-movil {
+    display: inline;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    font-weight: 700;
   }
 }
 

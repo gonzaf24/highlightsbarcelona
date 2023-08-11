@@ -64,6 +64,8 @@
 
     <script src="https://kit.fontawesome.com/a11b4444d7.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/tricks.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
