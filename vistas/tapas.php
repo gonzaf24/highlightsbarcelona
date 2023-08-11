@@ -55,7 +55,7 @@
                     <div class="trick-card">
                         <div class="trick-card-content">
                             <div class="front subtitle">
-                                <strong>Click to see the trick!</strong> 
+                                Click to see the trick!
                             </div>
                             <div class="back" data-title="TRICK">
                                 <div class="do-login-container">
@@ -115,7 +115,7 @@
                     <div class="trick-card">
                         <div class="trick-card-content" >
                             <div class="front subtitle">
-                                <strong>Click to see the trick!</strong> 
+                                Click to see the trick!
                             </div>
                             <div class="back" data-title="TRICK">
                                 <p>You can call to ensure they're open. Here's the number: 📞 Phone: +34 932 21 40 61<p>
@@ -163,7 +163,7 @@
                     <div class="trick-card">
                         <div class="trick-card-content" >
                             <div class="front subtitle">
-                                <strong>Click to see the trick!</strong> 
+                                Click to see the trick!
                             </div>
                             <div class="back" data-title="TRICK">
                                 <p>It's closed temporary<p>
@@ -217,7 +217,7 @@
                     <div class="trick-card">
                         <div class="trick-card-content">
                             <div class="front subtitle">
-                                <strong>Click to see the trick!</strong> 
+                                Click to see the trick!
                             </div>
                             <div class="back" data-title="TRICK">
                                 <div class="do-login-container">
@@ -275,7 +275,7 @@
                     <div class="trick-card">
                         <div class="trick-card-content">
                             <div class="front subtitle">
-                                <strong>Click to see the trick!</strong> 
+                                Click to see the trick!
                             </div>
                             <div class="back" data-title="TRICK">
                                 <div class="do-login-container">
@@ -289,4 +289,11 @@
             </div>
         </div>
      </div>
+
+
+     <div class="articles-container">
+
+        <h1 class="title">Tapas places by neighborhood </h1>
+
+    </div>
 </section>
