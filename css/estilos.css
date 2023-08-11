@@ -74,13 +74,27 @@ body::-webkit-scrollbar {
   align-items: flex-start;
   justify-content: center;
   gap: 35px;
+  background-color: #f8640359;
+  padding: 45px;
 }
 
 /* // - Article - // */
 .article {
   /* border: 1px solid #434051; /* Color del borde del artículo */
   border-radius: 5px;
-  padding-bottom: 100px;
+  position: relative;
+}
+
+.article:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #0000001a;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
 }
 
 .article-container {
@@ -137,6 +151,10 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 0px) and (max-width: 900px) {
+  .articles-container {
+    padding: 20px 10px;
+  }
+
   .article-container {
     flex-direction: column;
   }

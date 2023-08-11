@@ -1,6 +1,6 @@
 .trick-card {
-  width: 100%;
-  max-height: 60px;
+  width: fit-content;
+  height: auto;
   cursor: pointer;
   background-color: #f8640359;
 }
@@ -10,7 +10,9 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transform-style: preserve-3d;
   transition: transform 0.5s;
-  position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .trick-card-content.active {
@@ -19,21 +21,26 @@
 
 .front,
 .back {
-  color: #434051;
+  color: white !important;
+  font-weight: 600;
+  letter-spacing: 1px;
   text-align: left;
   backface-visibility: hidden;
-  position: absolute;
   border-radius: 5px;
   padding: 15px 20px;
   margin-bottom: 0px !important;
 }
 
 .front {
-  background: #f8640340;
+  order: 1;
+  background: #ff650036;
   transform: rotateY(0deg);
+  color: white !important;
 }
 
 .back {
+  order: 2;
+  display: none;
   background: #434051;
   color: white;
   transform: rotateY(180deg);
@@ -69,4 +76,12 @@
 .do-login-ancor:hover {
   color: #f86403;
   text-decoration: underline;
+}
+
+.trick-card-content.active .front {
+  display: none;
+}
+
+.trick-card-content.active .back {
+  display: block;
 }
