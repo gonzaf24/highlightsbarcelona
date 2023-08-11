@@ -69,8 +69,6 @@
             </div>
         </div>
 
-
-
         <div class="article">        
             <div class="article-container">
                 <div class="container">
@@ -126,7 +124,6 @@
             </div>
         </div>
 
-
         <div class="article">        
             <div class="article-container">
                 <div class="container">
@@ -173,7 +170,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="article">        
             <div class="article-container">
@@ -231,8 +227,6 @@
             </div>
         </div>
 
-
-
         <div class="article">        
             <div class="article-container">
                 <div class="container">
@@ -288,12 +282,85 @@
                 </div>
             </div>
         </div>
-     </div>
-
-
-     <div class="articles-container">
-
-        <h1 class="title">Tapas places by neighborhood </h1>
-
     </div>
+
+
+    <div class="articles-container">
+        <h1 class="title">Tapas places by neighborhood</h1>
+        <h2 class="subtitle">
+            Discover the top 3 tapas places in each neighborhood, complete with photos and descriptions. 
+            Embark on a flavorful journey and savor the essence of Spanish cuisine. Enjoy the tapas adventure!
+        </h2>
+        <div class="neighborhoods-container">
+            <div class="article">        
+                <div class="article-container">
+                    <div class="container">
+                        <span class="title neighborhoods-titles" data-title="Eixample">
+                            <p class="neighborhoods-tapas-places">
+                                - <a href="#jaica">Jaica</a> <br>
+                                - <a href="#cerveseria-catalana">Cerveseria Catalana</a> <br>
+                                - <a href="#el-nacional">El Nacional</a> <br>
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="article">        
+                <div class="article-container">
+                    <div class="container">
+                        <span class="title neighborhoods-titles" data-title="Gracia">
+                            <p class="neighborhoods-tapas-places">
+                                - <a href="#la-pepita">La Pepita</a> <br>
+                                - <a href="#gasterea">Gasterea</a> <br>
+                                - <a href="#lanxoveta">L'Anxoveta</a> <br>
+                            </p>
+                        </span>
+                    </div>
+                    </div>
+                </div>
+            <div class="article">        
+                <div class="article-container">
+                    <div class="container">
+                        <span class="title neighborhoods-titles" data-title="El Raval">
+                            <p class="neighborhoods-tapas-places">
+                                - <a href="#el-jardi">El Jardi</a> <br>
+                                - <a href="#bar-ramon">Bar Ramon</a> <br>
+                                - <a href="#casa-alfonso">Casa Alfonso</a> <br>
+                            </p>
+                        </span>
+                    </div>
+                    </div>
+                </div>
+
+            <div class="article">        
+                <div class="article-container">
+                    <div class="container">
+                        <span class="title neighborhoods-titles" data-title="Poble Sec">
+                            <p class="neighborhoods-tapas-places">
+                                - <a href="#quimet-quimet">Quimet & Quimet</a> <br>
+                                - <a href="#la-platilleria">La Platilleria</a> <br>
+                                - <a href="#tandem">Tandem</a> <br>
+                            </p>
+                        </span>
+                    </div>
+                    </div>
+                </div>
+            <div class="article">        
+                <div class="article-container">
+                    <div class="container">
+                        <span class="title neighborhoods-titles" data-title="Barceloneta">
+                            <p class="neighborhoods-tapas-places">
+                                - <a href="#jai-ca">Jai-Ca</a> <br>
+                                - <a href="#el-vaso-de-oro">El Vaso de Oro</a> <br>
+                                - <a href="#la-bombeta">La Bombeta</a> <br>
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
 </section>
