@@ -39,14 +39,41 @@ body::-webkit-scrollbar {
   margin-top: 125px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 0px 1rem 50px 1rem;
+  gap: 50px;
+  padding: 0px 5rem 50px 5rem;
   transition: margin-top 0.5s ease;
   min-height: 100vh;
 }
 
+@media (min-width: 0px) and (max-width: 1000px) {
+  .page {
+    padding: 0px 1rem 50px 1rem;
+  }
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .title {
   letter-spacing: 1px;
+  margin-bottom: 0px !important;
+}
+
+.subtitle {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  max-width: 75ch;
+}
+
+.articles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
 }
 
 /* // - Article - // */
@@ -60,6 +87,7 @@ body::-webkit-scrollbar {
   display: flex;
   padding-bottom: 50px;
   gap: 20px;
+  max-width: 1300px;
 }
 
 .article .container {
@@ -148,6 +176,14 @@ body::-webkit-scrollbar {
   padding: 5px 30px;
 }
 
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 .welcome-text {
   font-size: 1rem;
   font-weight: 500;
@@ -157,6 +193,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   flex-direction: column;
   gap: 5px;
+  max-width: 75ch;
 }
 
 .explore-link {

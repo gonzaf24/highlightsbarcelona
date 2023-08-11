@@ -10,7 +10,6 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transform-style: preserve-3d;
   transition: transform 0.5s;
-  min-height: 180px;
   position: relative;
 }
 
@@ -26,10 +25,28 @@
   position: absolute;
   border-radius: 5px;
   padding: 15px 20px;
+  margin-bottom: 0px !important;
+}
+
+.front {
+  background: #f8640340;
+  transform: rotateY(0deg);
 }
 
 .back {
   background: #434051;
   color: white;
   transform: rotateY(180deg);
+  padding: 30px 15px 15px 15px;
+}
+
+.back::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-weight: 800;
+  font-size: 0.6rem;
+  color: #f86403;
+  border-radius: 5px 5px 0 0;
 }
