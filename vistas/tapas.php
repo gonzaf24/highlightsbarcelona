@@ -26,6 +26,13 @@
                                 <img src="./img/tapas/tapas-1-2.png" />
                             </div>
                             <div class="swiper-slide">
+                                <iframe width="100%" height="100%" 
+                                        src="https://www.youtube.com/embed/PE34qKtQIoQ" 
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="swiper-slide">
                                 <img src="./img/tapas/tapas-1-3.png" />
                             </div>
                             <div class="swiper-slide">
