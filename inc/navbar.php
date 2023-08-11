@@ -1,12 +1,36 @@
 <?php
   // Obtener la vista actual de la URL
   $vista_actual = isset($_GET['vista']) ? $_GET['vista'] : 'home';
+
+  $categorias = array(
+    'tapas' => 'Eat tapas !',
+    'terraces' => 'Terraces (drinks and beers)',
+    'food' => 'By type of Food',
+    'local_life' => 'Local life (Rumba & Flamenco)',
+    'mobility' => 'Mobility',
+    'tourist_attractions' => 'Tourist attractions',
+    'beaches' => 'Beaches',
+    'neighborhoods' => 'Neighborhoods',
+    'neighborhoods_festivals' => 'Local neighborhood festivals',
+    'expensive_places' => 'Expensive and dress-code',
+    'nightlife' => 'Typical nightlife',
+    'techno_lovers' => 'Techno Lovers'
+);
+
 ?>
 <div id="navbar" class="navbar">
   <div class="navbar-container">
     <span>
         <a href="index.php" class="navbar-title">Highlights</a>
+
+        
     </span>
+
+    <?php 
+          if (array_key_exists($vista_actual, $categorias) && $vista_actual != 'home') {
+              echo '<span class="categoria-movil">' . $categorias[$vista_actual] . '</span>';
+          }
+        ?>
     
   </div>
   <div id="navbar-cotegories" class="navbar-cotegories">
@@ -48,14 +72,3 @@
       </span>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="./js/navbar.js"></script>
-<script src="./js/tricks.js"></script>
-<script>
-    var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>

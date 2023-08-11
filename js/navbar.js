@@ -28,13 +28,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Determinar el valor de margin-top según el ancho del navegador
     let marginTopValue = `250px`;
     if (screenWidth < 550) {
-      marginTopValue = `585px`;
+      marginTopValue = `610px`;
     } else if (screenWidth < 880) {
-      marginTopValue = `400px`;
+      marginTopValue = `425px`;
     } else if (screenWidth < 925) {
       marginTopValue = `360px`;
     } else {
-      marginTopValue = `300px`;
+      marginTopValue = `325px`;
     }
 
     if (navbarCategories.classList.contains("open-menu")) {
