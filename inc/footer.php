@@ -1,6 +1,6 @@
 <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2023 City Guide. All rights reserved.</p>
+            <p>&copy; 2023 Highlights Barcelona. All rights reserved.</p>
             <ul class="footer-links">
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
