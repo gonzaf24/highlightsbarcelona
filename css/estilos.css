@@ -173,10 +173,11 @@ body::-webkit-scrollbar {
 }
 
 .neighborhoods-tapas-places a {
-  color: #ffffff;
+  color: white !important;
   cursor: pointer;
   text-decoration: none;
   text-decoration: underline;
+  font-size: 1rem;
 }
 
 .subtitle-wrapper {
