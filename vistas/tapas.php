@@ -26,13 +26,6 @@
                                 <img src="./img/tapas/tapas-1-2.png" />
                             </div>
                             <div class="swiper-slide">
-                                <iframe width="100%" height="100%" 
-                                        src="https://www.youtube.com/embed/PE34qKtQIoQ" 
-                                        frameborder="0" 
-                                        allowfullscreen>
-                                </iframe>
-                            </div>
-                            <div class="swiper-slide">
                                 <img src="./img/tapas/tapas-1-3.png" />
                             </div>
                             <div class="swiper-slide">
@@ -49,6 +42,8 @@
                             </div>
                         </div>
                         <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
                 <div class="container container-subtitle-wrapper">
@@ -102,6 +97,8 @@
                             </div>
                         </div>
                         <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                         <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
                 <div class="container container-subtitle-wrapper">
@@ -154,6 +151,8 @@
                             </div>
                         </div>
                         <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                         <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
                 <div class="container container-subtitle-wrapper">
@@ -207,6 +206,8 @@
                             </div>
                         </div>
                         <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                         <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
                 <div class="container container-subtitle-wrapper">
@@ -263,6 +264,8 @@
                             </div>
                         </div>
                         <div class="swiper-pagination" style="z-index: 3; cursor: pointer"></div>
+                         <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
                 <div class="container container-subtitle-wrapper">
