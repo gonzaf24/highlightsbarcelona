@@ -69,20 +69,28 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-        effect: "cube",
-        grabCursor: true,
-        loop: true,
-        cubeEffect: {
-            shadow: true,
-            slideShadows: true,
-            shadowOffset: 20,
-            shadowScale: 0.94,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
+
+        document.querySelectorAll(".mySwiper").forEach(function (element, index) {
+            var swiper = new Swiper(element, {
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                type: 'bullets',
+            },
+            effect: 'coverflow',
+            coverflowEffect: {
+                rotate: 30,
+                slideShadows: false,
+            },
+            navigation: {
+            nextEl: element.querySelector(".swiper-button-next"),
+            prevEl: element.querySelector(".swiper-button-prev"),
+            },
+            });
         });
     </script>
+
+    <script src="./js/swiper.js" > </script>
 </html>
