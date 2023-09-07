@@ -34,7 +34,7 @@
     
   </div>
   <div id="navbar-cotegories" class="navbar-cotegories">
-    <a href="index.php?vista=tapas" class="item <?php echo $vista_actual === 'tapas' ? 'active' : ''; ?>">Eat tapas !</a>
+    <a href="index.php?vista=tapas" class="item <?php echo $vista_actual === 'tapas' ? 'active' : ''; ?>">Eat tapas !!</a>
     <a href="index.php?vista=terraces" class="item <?php echo $vista_actual === 'terraces' ? 'active' : ''; ?>">Terraces (drinks and beers)</a>
     <a href="index.php?vista=food" class="item <?php echo $vista_actual === 'food' ? 'active' : ''; ?>">By type of Food</a>
     <a href="index.php?vista=local_life" class="item <?php echo $vista_actual === 'local_life' ? 'active' : ''; ?>">Local life (Rumba & Flamenco)</a>
